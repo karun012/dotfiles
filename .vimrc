@@ -125,3 +125,10 @@ set autochdir
 autocmd BufEnter * exe 'setlocal path='.fnamemodify(findfile('pom.xml',';'),":h").'/src/**'
 
 let g:project_root_dir='/home/kramakrishnan/karun-workspace/cjo/main'
+
+" nav thru windows
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
